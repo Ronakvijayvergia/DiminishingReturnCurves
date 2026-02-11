@@ -49,6 +49,32 @@ LAUNCH_MMM_TOOL.command  # One-click Mac launcher
 4. **Optimize** budget allocation to maximize total response
 5. **Export** results as CSV, PNG, or JSON
 
+## Deployment / Hosting
+
+### Option A: Streamlit Cloud (Full Interactive App — Recommended)
+
+1. Go to [share.streamlit.io](https://share.streamlit.io)
+2. Sign in with your **GitHub account**
+3. Click **"New app"**
+4. Select repo: `Ronakvijayvergia/DiminishingReturnTool`
+5. Branch: `main`
+6. Main file path: `mmm_tool/app.py`
+7. Click **Deploy**
+
+Your app will be live at a public URL like:
+`https://ronakvijayvergia-diminishingreturntool.streamlit.app`
+
+### Option B: GitHub Pages (Static HTML Dashboards Only)
+
+1. Go to your repo → **Settings** → **Pages** (left sidebar)
+2. Under "Source", select **main** branch and **/ (root)** folder
+3. Click **Save**
+4. After a minute, your HTML dashboards will be live at:
+   - `https://ronakvijayvergia.github.io/DiminishingReturnTool/mmm_dashboard.html`
+   - `https://ronakvijayvergia.github.io/DiminishingReturnTool/MMM_Diminishing_Returns_Tool.html`
+
+> **Note:** GitHub Pages only hosts the static HTML files. For the full interactive Streamlit app with all 5 tabs, use Option A.
+
 ## Supported Equations
 
 | Equation | Formula | Use Case |
